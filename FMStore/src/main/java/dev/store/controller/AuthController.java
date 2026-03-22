@@ -15,7 +15,7 @@ import dev.store.services.UserService;
 @RestController
 @RequestMapping("/auth")
 
-public class AuthController {
+public class AuthController {  
 	private final JwtService jwtService;
 	private final UserService userService;
 
